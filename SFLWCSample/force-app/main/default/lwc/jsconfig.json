@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "baseUrl": ".",
+        "paths": {
+            "c/sampleLWC": [
+                "sampleLWC/sampleLWC.js"
+            ],
+            "c/leadList": [
+                "leadList/leadList.js"
+            ],
+            "c/leadListItem": [
+                "leadListItem/leadListItem.js"
+            ],
+            "c/leadMap": [
+                "leadMap/leadMap.js"
+            ],
+            "c/errorPanel": [
+                "errorPanel/errorPanel.js"
+            ],
+            "c/ldsUtils": [
+                "ldsUtils/ldsUtils.js"
+            ]
+        }
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
